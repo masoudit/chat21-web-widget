@@ -1,0 +1,96 @@
+{
+  "LABEL_TU": "",
+  "LABEL_PLACEHOLDER": "پیام خود را تایپ کنید..",
+  "LABEL_START_NW_CONV": "گفتگوی جدید",
+  "LABEL_WHATSAPP": "به ما پیام دهید",
+  "LABEL_FIRST_MSG": "به زودی مشکل خود را شرح دهید، یک نماینده با شما تماس خواهد گرفت.",
+  "LABEL_FIRST_MSG_NO_AGENTS": "🤔 همه اپراتورها در حال حاضر آفلاین هستند. ",
+  "LABEL_SELECT_TOPIC": "یک موضوع را انتخاب کنید",
+  "LABEL_COMPLETE_FORM": "برای شروع مکالمه با نماینده بعدی، فرم را تکمیل کنید.",
+  "LABEL_FIELD_NAME": "نام",
+  "LABEL_ERROR_FIELD_NAME": "فیلد مورد نیاز (حداقل 5 کاراکتر).",
+  "LABEL_FIELD_EMAIL": "پست الکترونیک",
+  "LABEL_ERROR_FIELD_EMAIL": "یک آدرس ایمیل معتبر وارد کنید.",
+  "LABEL_ERROR_FIELD_REQUIRED": "فیلد الزامی",
+  "LABEL_WRITING": "در حال نوشتن...",
+  "LABEL_SEND_NEW_MESSAGE": "یک پیام جدید ارسال کنید",
+  "AGENT_NOT_AVAILABLE": " آفلاین",
+  "AGENT_AVAILABLE": " برخط",
+  "GUEST_LABEL": "مهمان",
+  "ALL_AGENTS_OFFLINE_LABEL": "همه اپراتورها در حال حاضر آفلاین هستند",
+  "LABEL_LOADING": "بارگذاری...",
+  "CALLOUT_TITLE_PLACEHOLDER": "کمک خواستن؟",
+  "CALLOUT_MSG_PLACEHOLDER": "اینجا را کلیک کنید و با ما چت کنید!",
+  "CUSTOMER_SATISFACTION": "رضایت مشتری",
+  "YOUR_OPINION_ON_OUR_CUSTOMER_SERVICE": "نظر شما در مورد خدمات مشتریان ما",
+  "DOWNLOAD_TRANSCRIPT": "متن را دانلود کنید",
+  "BACK": "بازگشت",
+  "CONTINUE": "ادامه هید",
+  "YOUR_RATING": "امتیاز شما",
+  "WRITE_YOUR_OPINION": "نظر خود را بنویسید ... (اختیاری)",
+  "SUBMIT": "ارسال",
+  "THANK_YOU_FOR_YOUR_EVALUATION": "از ارزیابی شما متشکرم",
+  "YOUR_RATING_HAS_BEEN_RECEIVED": "امتیاز شما دریافت شده است",
+  "ALERT_LEAVE_CHAT": "آیا می خواهید چت را ترک کنید؟",
+  "YES": "آره",
+  "NO": "خیر",
+  "BUTTON_CLOSE_TO_ICON": "چت را به حداقل برسانید",
+  "BUTTON_EDIT_PROFILE": "بروزرسانی پروفایل",
+  "RATE_CHAT": "به چت امتیاز دهید",
+  "WELLCOME_TITLE": "سلام، به Tiledesk خوش آمدید 👋",
+  "WELLCOME_MSG": "چطور میتوانیم کمک کنیم؟",
+  "OPTIONS": "گزینه ها",
+  "SOUND_OFF": "قطع صدا",
+  "SOUND_ON": "صدا روشن است",
+  "LOGOUT": "خروج",
+  "CLOSE": "نزدیک",
+  "RESTART": "راه اندازی مجدد",
+  "PREV_CONVERSATIONS": "گفتگوهای شما",
+  "YOU": "شما",
+  "SHOW_ALL_CONV": "نمایش همه",
+  "START_A_CONVERSATION": "یک مکالمه را شروع کنید",
+  "NO_CONVERSATION": "بدون مکالمه",
+  "SEE_PREVIOUS": "قبلی را ببینید",
+  "WAITING_TIME_FOUND": "تیم معمولاً در $reply_time پاسخ می‌دهد",
+  "WAITING_TIME_NOT_FOUND": "تیم در اسرع وقت پاسخ خواهد داد",
+  "CLOSED": "بسته شد",
+  "CLOSE_CHAT": "بستن چت",
+  "MINIMIZE": "کوچک کردن",
+  "MAXIMIZE": "تمام صفحه",
+  "INFO_SUPPORT_USER_ADDED_SUBJECT": "شما",
+  "INFO_SUPPORT_USER_ADDED_YOU_VERB": "اضافه شده اند ",
+  "INFO_SUPPORT_USER_ADDED_COMPLEMENT": "ملحق شد",
+  "INFO_SUPPORT_USER_ADDED_VERB": "چت",
+  "INFO_SUPPORT_CHAT_REOPENED": "چت دوباره باز شد",
+  "INFO_SUPPORT_CHAT_CLOSED": "چت بسته شد",
+  "INFO_SUPPORT_LEAD_UPDATED": "پشتیبانی به روز شد",
+  "INFO_SUPPORT_MEMBER_LEFT_GROUP": "از گروه حذف شد",
+  "INFO_SUPPORT_MEMBER_ABANDONED_GROUP": "گفتگو را ترک کرده است",
+  "INFO_A_NEW_SUPPORT_REQUEST_HAS_BEEN_ASSIGNED_TO_YOU": "یک درخواست پشتیبانی جدید به شما اختصاص داده شده است",
+  "LABEL_PRECHAT_USER_FULLNAME": "نام و نام خانوادگی",
+  "LABEL_PRECHAT_USER_EMAIL": "پست الکترونیک",
+  "LABEL_PRECHAT_USER_EMAIL_ERROR": "آدرس ایمیل نامعتبر است",
+  "LABEL_PRECHAT_USER_PHONE": "تلفن",
+  "LABEL_PRECHAT_USER_PHONE_ERROR": "تلفن الزامی است",
+  "LABEL_PRECHAT_FIRST_MESSAGE": "پیام شما برای تیم پشتیبانی",
+  "LABEL_PRECHAT_STATIC_TERMS_PRIVACY": "قبل از ادامه گفتگو، لطفاً با ما موافقت کنید <a href='https://userzone.ir/termsofservice/' target='_blank'>مقررات</a> و <a href='https://tiledesk.com/privacy.html' target='_blank'>سیاست حفظ حریم خصوصی</a>",
+  "LABEL_PRECHAT_ACCEPT_TERMS_PRIVACY": "موافقم",
+  "PRECHAT_REQUIRED_ERROR": "این فیلد الزامی است",
+  "LABEL_TODAY": "امروز",
+  "LABEL_TOMORROW": "دیروز",
+  "LABEL_LAST_ACCESS": "آخرین دسترسی",
+  "LABEL_TO": "در",
+  "ARRAY_DAYS": [
+    "دوشنبه",
+    "سهشنبه",
+    "چهار شنبه",
+    "پنج شنبه",
+    "جمعه",
+    "شنبه",
+    "یکشنبه"
+  ],
+  "SENT_AN_ATTACHMENT": "پیوست ارسال کرد",
+  "SENT_AN_IMAGE": "تصویری ارسال کرد",
+  "LABEL_PREVIEW": "پیش نمایش",
+  "SWITCH_TO": "یا جابجایی به:"
+}

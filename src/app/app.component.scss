@@ -6,6 +6,21 @@
 @import url('./sass/animations.scss');
 @import url("./sass/hover.css");
 @import '@ctrl/ngx-emoji-mart/picker';
+@font-face {
+    font-family: "IRANYekanAFF";
+    font-style: normal;
+    font-weight: normal;
+    src: url("https://widget.affilio.ir/assets/fonts/IRANYekanWebRegular.eot");
+    src: url("https://widget.affilio.ir/assets/fonts/IRANYekanWebRegular.eot?#iefix")
+        format("embedded-opentype"),
+      url("https://widget.affilio.ir/assets/fonts/IRANYekanWebRegular.woff2")
+        format("woff2"),
+      url("https://widget.affilio.ir/assets/fonts/IRANYekanWebRegular.woff")
+        format("woff"),
+      url("https://widget.affilio.ir/assets/fonts/IRANYekanWebRegular.ttf")
+        format("truetype");
+  }
+
 // @import "~bootstrap/dist/css/bootstrap.css";
 /** custom scroll bar **/
 input, select:focus, textarea {

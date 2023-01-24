@@ -278,6 +278,7 @@ export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
             this.translatorService.initI18n().then((result) => {
                 this.logger.debug('[APP-COMP] »»»» APP-COMPONENT.TS initI18n result', result);
                 const browserLang = this.translatorService.getLanguage();
+                console.log('browserLang-----',browserLang);
                 moment.locale(browserLang)
                 this.translatorService.translate(this.g);
             }).then(() => {

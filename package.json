@@ -10,7 +10,7 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port 5400",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

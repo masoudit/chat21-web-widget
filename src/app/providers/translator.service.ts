@@ -17,7 +17,7 @@ import { LoggerInstance } from '../../chat21-core/providers/logger/loggerInstanc
 @Injectable()
 export class TranslatorService {
 
-  private defaultLanguage = 'en'; // default language
+  private defaultLanguage = 'fa'; // default language
   private language: string; // user language
   private logger: LoggerService = LoggerInstance.getInstance()
   // private translations: Object;
@@ -95,20 +95,22 @@ export class TranslatorService {
     if (environment.loadRemoteTranslations) {
       return this.remoteTranslationsUrl + this.g.projectid + '/labels/' + browserLang.toUpperCase();
     } else {
-      return this.baseLocation + `/assets/i18n/${browserLang}.json`;
+      console.log('a-----', (this.baseLocation || "")+ `/assets/i18n/${browserLang}.json`);
+      return (this.baseLocation || "")+ `/assets/i18n/${browserLang}.json`;
     }
   }
 
   // https://github.com/ngx-translate/core/issues/282
   initI18n(): Promise<any> {
-    this._translate.addLangs(['en', 'it']);
+    this._translate.addLangs(['en', 'it', 'fa']);
     this.logger.debug('[TRANSLATOR-SERV]»»»» initI18n getLangs ', this._translate.getLangs());
 
     // Set the default language for translation strings.
-    const defaultLanguage = 'en';
+    const defaultLanguage = 'fa';
     this.logger.debug('[TRANSLATOR-SERV] »»»» initI18n setDefaultLang ');
     this._translate.setDefaultLang(defaultLanguage);
     this.language = defaultLanguage;
+    console.log('defaultLanguage----',defaultLanguage);
     // Detect user language.
     let browserLang = this._translate.getBrowserLang();
     if (this.g.lang && this.g.lang !== '') {
