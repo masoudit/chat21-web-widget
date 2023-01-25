@@ -217,9 +217,9 @@
         }
     </script> -->
 
-    <meta property="og:title" content="Try Tiledesk now!" />
-    <meta property="og:description" content="Qualify your leads to increase your sales faster. It's really easy to do it with the Tiledesk conversational form builder" />
-    <meta property="og:image" content="https://tiledesk.com/wp-content/uploads/2022/12/6029654-02-min.png" />
+    <meta property="og:title" content="Try Userzone now!" />
+    <meta property="og:description" content="Qualify your leads to increase your sales faster. It's really easy to do it with the Userzone conversational form builder" />
+    <meta property="og:image" content="https://userzone.ir/wp-content/uploads/2022/12/6029654-02-min.png" />
     <meta property="og:locale" content="en">
     
     <link rel="icon" type="image/png" href="./tiledesk_widget_files/logo-short.png">
@@ -259,7 +259,7 @@
             i.c=function(args){ 
                 i.q.push(args);
             };
-            w.Tiledesk=i;
+            w.Userzone=i;
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
             js = d.createElement(s); 
@@ -267,15 +267,15 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'tiledesk-jssdk'));
         
-        window.Tiledesk('onLoadParams', function(event_data) {
-            console.log("onLoadParams Tiledesk FN", event_data);
-            // window.Tiledesk('signInWithCustomToken', 'JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDliOGVmYTg3MzJlYjAwMTQxNzYzZDlfNWU0ZWNiOThiNzhlZTQwMDE3NDA2MTEwIiwiZmlyc3RuYW1lIjoiS2VsbHkiLCJsYXN0bmFtZSI6IkdyYWNlIiwiZW1haWwiOiJncmFjZUBlbWFpbG5hLmNvIiwic3ViIjoidXNlcmV4dGVybmFsIiwiYXVkIjoiaHR0cHM6Ly90aWxlZGVzay5jb20vcHJvamVjdHMvNjA5YjhlZmE4NzMyZWIwMDE0MTc2M2Q5IiwiaWF0IjoxNjQxODAzODk0fQ.p0reTwd25p93CsDTyQa8tkihgFxThAI4DXloNc6vbXw')
+        window.Userzone('onLoadParams', function(event_data) {
+            console.log("onLoadParams Userzone FN", event_data);
+            // window.Userzone('signInWithCustomToken', 'JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDliOGVmYTg3MzJlYjAwMTQxNzYzZDlfNWU0ZWNiOThiNzhlZTQwMDE3NDA2MTEwIiwiZmlyc3RuYW1lIjoiS2VsbHkiLCJsYXN0bmFtZSI6IkdyYWNlIiwiZW1haWwiOiJncmFjZUBlbWFpbG5hLmNvIiwic3ViIjoidXNlcmV4dGVybmFsIiwiYXVkIjoiaHR0cHM6Ly90aWxlZGVzay5jb20vcHJvamVjdHMvNjA5YjhlZmE4NzMyZWIwMDE0MTc2M2Q5IiwiaWF0IjoxNjQxODAzODk0fQ.p0reTwd25p93CsDTyQa8tkihgFxThAI4DXloNc6vbXw')
             //                 .then(response => console.log('signInWithCustomToken: user_logged -> ', response))
             //                 .catch((error)=> console.error('signInWithCustomToken: error', error))
         });
         
-        window.Tiledesk('onBeforeInit', function(event_data) {
-            console.log("onBeforeInit Tiledesk FN", event_data);
+        window.Userzone('onBeforeInit', function(event_data) {
+            console.log("onBeforeInit Userzone FN", event_data);
             
             setTimeout(() => {
                 if(event_data && event_data.detail && event_data.detail.appConfigs){
@@ -290,31 +290,31 @@
             
         });
         
-        window.Tiledesk('onInit', function(event_data) {
-            console.log("onInit Tiledesk FN", event_data); 
+        window.Userzone('onInit', function(event_data) {
+            console.log("onInit Userzone FN", event_data); 
             setTimeout(() => {
                 document.getElementById("preloader").style.display = "none";
             }, 1000);
             //open widget after 3s if is closed
             setTimeout(() => {
                 if(event_data && event_data.detail && event_data.detail.global && !event_data.detail.global.isOpen){
-                    window.Tiledesk('open')
+                    window.Userzone('open')
                 }
             }, 3000);
         });
 
-        window.Tiledesk('onAuthStateChanged', function(event_data) {
+        window.Userzone('onAuthStateChanged', function(event_data) {
         	console.log("AUTHENTICATED!", event_data);
        		// if(event_data.detail.isLogged){
             // 	console.log("isLogged!!!!", event_data);
-            // 	window.Tiledesk('show')
+            // 	window.Userzone('show')
             // }
         });
     </script>
 
     <script type="application/javascript">
-        var baseUrlConsole = "https://console.tiledesk.com/v2/dashboard/";
-        var baseUrlTestPage ="https://widget.tiledesk.com/v5/assets/twp/"
+        var baseUrlConsole = "https://console.userzone.ir/v2/dashboard/";
+        var baseUrlTestPage ="https://widget.userzone.ir/v5/assets/twp/"
         var queryString = window.location.search;
         var urlParams = new URLSearchParams(queryString);
         var urlToConsole = urlParams.get('goToConsole');
@@ -448,23 +448,23 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="https://console.tiledesk.com/"></a>
+                        <a class="navbar-brand" href="https://console.userzone.ir/"></a>
                     </div>
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li><a href="https://developer.tiledesk.com/widget/web-sdk" target="_blank">WEB SDK &amp; Docs<span></span></a></li>
-                            <li><a href="https://www.tiledesk.com/pricing-cloud/" target="_blank">Pricing<span></span></a></li>
-                            <li><a href="https://www.tiledesk.com/blog/" target="_blank">Blog<span></span></a></li>
+                            <li><a href="https://developer.userzone.ir/widget/web-sdk" target="_blank">WEB SDK &amp; Docs<span></span></a></li>
+                            <li><a href="https://www.userzone.ir/pricing-cloud/" target="_blank">Pricing<span></span></a></li>
+                            <li><a href="https://www.userzone.ir/blog/" target="_blank">Blog<span></span></a></li>
                         </ul>
 
                         <ul class="nav navbar-nav navbar-right">
                             <li class="sign-up"><a onclick="goToConsole()" href="#">GO TO CONSOLE</a></li>
                         </ul>
 
-                        <ul class="nav navbar-nav navbar-right" id="testPageButton"  style="display: none;">
+                        <!-- <ul class="nav navbar-nav navbar-right" id="testPageButton"  style="display: none;">
                             <li class="sign-up"><a onclick="goToTestPage()" href="#">GO TO TEST PAGE</a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </nav>
@@ -503,7 +503,7 @@
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}; <br>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(function(d, s, id) { <br>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var w=window; var d=document; var i=function() { i.c(arguments); };<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.q=[]; i.c=function(args){ i.q.push(args); }; w.Tiledesk=i;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.q=[]; i.c=function(args){ i.q.push(args); }; w.Userzone=i;<br>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var js, fjs=d.getElementsByTagName(s)[0];<br>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (d.getElementById(id)) return;<br>
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;js=d.createElement(s); js.id=id; js.async=true;<br>
@@ -561,9 +561,9 @@
 
     <footer id="footer">
         <div class="b-agent-demo_powered_by">
-            <a href="https://console.tiledesk.com/" target="_blank" style="cursor: pointer;text-decoration: none;">
+            <a href="https://console.userzone.ir/" target="_blank" style="cursor: pointer;text-decoration: none;">
                 <span style="position: relative; top: 2px;">Powered by</span>
-                <img src="./tiledesk_widget_files/logo@2x-black.png" alt="Tiledesk">
+                <img src="./tiledesk_widget_files/logo@2x-black.png" alt="Userzone">
             </a>
         </div>
     </footer>
